@@ -6,6 +6,9 @@ namespace Pragma.AnimationEventListener
     [CreateAssetMenu(fileName = nameof(AnimationEventParamContainer), menuName = "Configs/Game/AnimationEvent/" + nameof(AnimationEventParamContainer))]
     public sealed class AnimationEventParamContainer : ScriptableObject
     {
+#if !ODIN_INSPECTOR
+        [SubclassSelector]
+#endif
         [SerializeReference] private List<IAnimationEventParam> _params;
 
         public IReadOnlyList<IAnimationEventParam> Params => _params;

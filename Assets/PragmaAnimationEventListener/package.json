@@ -3,10 +3,13 @@
   "displayName": "Pragma AnimationEventListener",
   "version": "0.9.0",
   "author": {
-    "name": "Mark Kurda",
+    "name": "Pragma",
     "email": "pragmagame@gmail.com",
     "url": "https://github.com/PragmaGame"
   },
-  "dependencies": {
+  "license": "MIT",
+  "dependencies": 
+  {
+    "com.mackysoft.serializereference-extensions": "https://github.com/mackysoft/Unity-SerializeReferenceExtensions.git?path=Assets/MackySoft/MackySoft.SerializeReferenceExtensions"
   }
 }
