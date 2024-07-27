@@ -1,0 +1,12 @@
+﻿{
+  "name": "com.pragma.animationeventlistener",
+  "displayName": "Pragma AnimationEventListener",
+  "version": "0.9.0",
+  "author": {
+    "name": "Mark Kurda",
+    "email": "pragmagame@gmail.com",
+    "url": "https://github.com/PragmaGame"
+  },
+  "dependencies": {
+  }
+}
